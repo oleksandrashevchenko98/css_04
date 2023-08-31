@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+/* 001 */
 body {
   background-color: #b4b4b4;
   background-image: url("../img/pink-flowers.webp");
@@ -7,24 +9,28 @@ body {
   color: #1d1b1b;
 }
 
+/* 10 */
 .wrapper {
   width: 89%;
   margin: 0 auto;
   background-color: #ffffff;
 }
 
+/* 10 */
 .header,
 .main,
 .footer {
-  padding: 0 50px;
+  padding: 0 4%;
 }
 
+/* 10 */
 .header__heading {
   padding-top: 96px;
   margin-bottom: 46px;
   font-size: 2rem;
 }
 
+/* 10 */
 .header__heading,
 .article__heading,
 .article__heading--space,
@@ -32,13 +38,15 @@ body {
   color: #a11414;
 }
 
-.uppercase,
+/* 10 */
+.header__text,
 .nav-heading,
 .article__text--spec {
   text-transform: uppercase;
 }
 
-.uppercase,
+/* 10 */
+.header__text,
 .article__heading,
 .article__heading--space,
 .nav-heading,
@@ -46,75 +54,98 @@ body {
   font-weight: 700;
 }
 
+/* 10 */
 .header__img-wrap {
-  padding: 14px 13px;
+  padding: 14px 1%;
   border: 1px solid #000;
   border-radius: 2px;
   margin-bottom: 57px;
 }
 
+/* 11 */
 .header__img-wrap img {
   width: 100%;
 }
 
+/* 10 */
 .section--flex {
   display: flex;
 }
 
+/* 10 */
 .article__heading,
 .article__heading--space {
   font-size: 1.5rem;
 }
+
+/* 10 */
 .article__heading--space {
   margin-top: 31px;
 }
 
+/* 001 */
 p {
   line-height: 18.75px;
   margin-bottom: 9px;
 }
 
+/* 10 */
 .article__item {
   margin-top: 15px;
   text-indent: 5%;
 }
 
+/* 10 */
 .article__text--add {
   text-decoration: line-through;
 }
 
+/* 10 */
 .nav-wrap {
-  width: 29%;
+  width: 14%;
   border-radius: 2px 15px;
   background-color: #d7d7d7;
-  padding: 29px 26px;
+  padding: 29px 1.9%;
   font-family: Arial, Helvetica, sans-serif;
+  flex-shrink: 0;
 }
 
+/* 10 */
 .nav-heading {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 24px;
 }
 
+/* 10 */
 .nav__link {
   color: #000;
   text-decoration: none;
 }
 
+/* 20 */
 .nav__link:hover {
   font-weight: 700;
   color: #a11414;
   text-decoration: underline;
 }
 
+/* 10 */
 .footer {
-  margin: 0 auto;
-  text-align: center;
+  width: 85%;
+  margin-top: 4px;
   padding-bottom: 18px;
-  color: #403636;
+  background-color: #ffffff;
 }
+
+/* 10 */
+.footer__line {
+  background: url("../img/back.gif") no-repeat 0 50%;
+  background-size: 100%;
+}
+
+/* 10 */
 .footer__item {
-  background-image: url("../img/back.gif");
-  background-repeat: no-repeat;
-  background-position: center;
+  text-align: center;
+  padding: 7px 0 6px;
+  color: #403636;
 }
