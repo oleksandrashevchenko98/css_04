@@ -90,6 +90,11 @@ p {
 }
 
 /* 10 */
+.article {
+  padding-right: 0.2%;
+}
+
+/* 10 */
 .article__item {
   margin-top: 15px;
   text-indent: 5%;
